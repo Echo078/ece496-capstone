@@ -1,0 +1,25 @@
+{
+  "port": "/dev/cu.usbmodem348518B5D36C1",
+  "command": "d",
+  "vibration_command_sent": false,
+  "lines": [
+    "DIAGNOSTIC: Wire.begin=1, motor.ready=0",
+    "Startup transactions: result=0 success, 0xFE=register read returned no byte",
+    "R reg=0x00 value=0x00 result=0xFE",
+    "I2C probe SDA=9 SCL=8: init=1, SDA_level=1 SCL_level=1",
+    "address 0x5A result=2 (0=ACK, 2=NACK, 5=timeout)",
+    "I2C probe SDA=8 SCL=9: init=1, SDA_level=1 SCL_level=1",
+    "address 0x5A result=2 (0=ACK, 2=NACK, 5=timeout)",
+    "Restored SDA=9 SCL=8. Diagnostic did not start vibration.",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic",
+    "DRIVER NOT READY: type d for exact I2C/startup diagnostic"
+  ],
+  "date": "2026-10-25",
+  "environment": "simple_erm",
+  "finding": "Startup STATUS read returned no byte; address-only I2C probes got NACK (code 2) on both SDA=9/SCL=8 and SDA=8/SCL=9. USB communication and Wire initialization worked. No nonzero motor output requested."
+}

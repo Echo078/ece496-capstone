@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-25",
+  "firmware_environment": "mixsense_gr_erm",
+  "firmware_sha256": "f29f950efdaee3c6e7df83f20341b29c29cc93427f7f1c5c7f44e1d275c31809",
+  "firmware_upload_hash_verified": true,
+  "runtime_usb": {
+    "port": "/dev/cu.usbmodem348518B5D36C1",
+    "received_frames": [
+      {
+        "hex": "aa 55 01 06 00 02 00 00",
+        "type": 6,
+        "id": 0,
+        "normalized": 0.0
+      }
+    ],
+    "motor_command_sent": false
+  },
+  "host_tests": {
+    "ctest_cases": 9,
+    "passed": 9,
+    "firmware_host_tests": "ASan/UBSan passed"
+  },
+  "gr_haptics_enabled_by_default": false,
+  "mapping": {
+    "deadband_gr_db": 0.5,
+    "full_scale_gr_db": 18,
+    "minimum_positive_rtp": 30,
+    "maximum_rtp": 90
+  },
+  "source_expiry_ms": 250,
+  "host_refresh_ms": 50,
+  "firmware_watchdog_ms": 1000,
+  "fsr": {
+    "pin": 5,
+    "adc_calibration": [
+      0,
+      3000
+    ],
+    "calibrated_force": false,
+    "more_pressure": "lower threshold"
+  },
+  "driver": {
+    "SDA": 9,
+    "SCL": 8,
+    "library": "Adafruit DRV2605 1.2.4",
+    "BusIO": "1.17.4"
+  },
+  "constant_detector_example": {
+    "input_db": -18,
+    "threshold_db": -36,
+    "ratio": 4,
+    "steady_gr_db": 13.5
+  },
+  "sine_example": {
+    "peak_dbfs": -18,
+    "frequency_hz": 1000,
+    "threshold_db": -36,
+    "attack_ms": 10,
+    "release_ms": 100,
+    "measured_gr_db_approx": 12.3
+  },
+  "physical_combined_test": "PASS: user confirms motor vibrates and changes with FSR, and Bypass stops it, after restoring normal firmware and a full USB power cycle.",
+  "diagnostic_status": "Driver not detected after ESP32 reset; same diagnostic firmware reports driver ready and all five register reads successful after full USB power cycle. Normal binary-only profile restored, power-cycled, and combined live test passed.",
+  "driver_recovery_record": "2026-10-25-gr-erm-driver-recovery.json",
+  "user_report": "Motor vibrates and changes with FSR; Bypass stops it",
+  "physical_combined_feedback_confirmed": true,
+  "bypass_stops_motor_confirmed": true
+}

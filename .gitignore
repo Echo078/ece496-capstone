@@ -3,3 +3,19 @@ __pycache__/
 .venv/
 .env
 .env.*
+
+# MixSense build and development output
+# build output and IDE files
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+.vs/
+.vscode/
+.idea/
+.pio/
+
+# OS and Office clutter
+.DS_Store
+Thumbs.db
+~$*

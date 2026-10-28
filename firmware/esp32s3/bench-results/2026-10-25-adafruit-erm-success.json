@@ -1,0 +1,38 @@
+{
+  "port": "/dev/cu.usbmodem348518B5D36C1",
+  "vibration_command_sent": false,
+  "lines": [
+    "Adafruit drv.begin()=TRUE: READY; 1=one level sweep, 0=stop",
+    "Adafruit drv.begin()=TRUE: READY; 1=one level sweep, 0=stop",
+    "Adafruit drv.begin()=TRUE: READY; 1=one level sweep, 0=stop",
+    "Adafruit drv.begin()=TRUE: READY; 1=one level sweep, 0=stop",
+    "Adafruit drv.begin()=TRUE: READY; 1=one level sweep, 0=stop"
+  ],
+  "date": "2026-10-25",
+  "environment": "adafruit_erm",
+  "driver_library": "Adafruit DRV2605 1.2.4",
+  "bus_library": "Adafruit BusIO 1.17.4",
+  "pins": {
+    "SDA": 9,
+    "SCL": 8
+  },
+  "startup_delay_ms": 1500,
+  "whole_circuit_power_cycle_confirmed_by_user": true,
+  "firmware_upload_hash_verified": true,
+  "levels": [
+    0,
+    30,
+    50,
+    70,
+    90,
+    110,
+    127
+  ],
+  "level_duration_ms": 1000,
+  "pause_duration_ms": 1000,
+  "starts_automatically": false,
+  "user_report": "I felt vibration that grew stronger",
+  "physical_vibration_confirmed": true,
+  "root_cause_of_previous_custom_test_failure": "Not isolated: initialization/library and power state changed together. Do not conclude a specific wiring or custom-driver defect from this comparison.",
+  "firmware_sha256": "e7272b0c8f12ea60c9e018201b036b6fc62f1aa6d5a70a5ab32546bff0b1c29b"
+}

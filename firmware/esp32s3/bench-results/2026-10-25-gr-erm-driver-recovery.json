@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-25",
+  "environment": "mixsense_gr_erm_debug",
+  "before_power_cycle": {
+    "port": "/dev/cu.usbmodem348518B5D36C1",
+    "motor_command_sent": false,
+    "lines": [
+      "DBG ok=0 rx=0 fault=Adafruit_begin_not_detected",
+      "REG rd=00 s=00 m=00 f=00 c=00 r=0 b=1 a=3349",
+      "DBG ok=0 rx=0 fault=Adafruit_begin_not_detected",
+      "REG rd=00 s=00 m=00 f=00 c=00 r=0 b=1 a=3348",
+      "DBG ok=0 rx=0 fault=Adafruit_begin_not_detected",
+      "REG rd=00 s=00 m=00 f=00 c=00 r=0 b=1 a=3348"
+    ]
+  },
+  "after_power_cycle": {
+    "port": "/dev/cu.usbmodem348518B5D36C1",
+    "motor_command_sent": false,
+    "after_full_power_cycle": true,
+    "lines": [
+      "REG rd=1F s=E0 m=05 f=36 c=A0 r=0 b=1 a=3348",
+      "DBG ok=1 rx=0 fault=none",
+      "REG rd=1F s=E0 m=05 f=36 c=A0 r=0 b=1 a=3345",
+      "DBG ok=1 rx=0 fault=none",
+      "REG rd=1F s=E0 m=05 f=36 c=A0 r=0 b=1 a=3349",
+      "DBG ok=1 rx=0 fault=none",
+      "REG rd=1F s=E0 m=05 f=36 c=A0 r=0 b=1 a=3348"
+    ]
+  },
+  "observation": "Same diagnostic firmware: DRV2605L not detected before full USB power cycle; ready with all register reads succeeding afterwards. Wiring left unchanged per user. Underlying electrical/reset cause not isolated.",
+  "motor_commands_sent_by_diagnostic_reader": false
+}
