@@ -1,0 +1,2143 @@
+{
+  "date": "2026-10-25",
+  "environment": "hardware_check",
+  "chip": "ESP32-S3 revision v0.2",
+  "flash_bytes": 16777216,
+  "flash_type": "quad SPI",
+  "firmware_sha256": "f74e7768d6bf540e6f38f3bd47557ca7f213ea0beff1c3d966242021e48b44bf",
+  "flash_upload_hash_verified": true,
+  "fsr_gpio": 5,
+  "driver_sda_gpio": 9,
+  "driver_scl_gpio": 8,
+  "driver_status": "0xE0",
+  "driver_device_id": 7,
+  "motor_disconnected_by_user": true,
+  "motor_drive_enabled": false,
+  "idle": {
+    "samples": 81,
+    "min": 0.0,
+    "median": 0.0,
+    "max": 1.0
+  },
+  "press_test": {
+    "samples": 392,
+    "min": 0.0,
+    "max": 4095.0,
+    "samples_at_4095": 35,
+    "last_20_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "finding": "FSR responds and returns to zero; firm pressure saturates ADC. Do not use 4095 as proof of a calibrated force maximum.",
+  "flash_backup": {
+    "path": "/tmp/mixsense-esp32-backup.GVJ5BW/before-hardware-check-prefix.bin",
+    "offset": 0,
+    "size_bytes": 393216,
+    "scope": "Prefix covering regions overwritten by this upload; not a full 16MB device image."
+  },
+  "captures": {
+    "released": [
+      {
+        "seconds": 0.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.274,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.374,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.775,
+        "line": "adc=1 normalized=0.000"
+      },
+      {
+        "seconds": 0.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 0.977,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 1.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.574,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 2.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 3.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 4.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.278,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 5.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 6.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.074,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.374,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.977,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 7.977,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.078,
+        "line": "adc=0 normalized=0.000"
+      }
+    ],
+    "press_release": [
+      {
+        "seconds": 0.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 0.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 0.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.574,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 1.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 1.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.674,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 2.983,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 2.983,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.376,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.474,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.581,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 3.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 3.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.174,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 4.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 4.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.874,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 5.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 5.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.277,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 6.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 6.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.076,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.374,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.574,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.774,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 7.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 7.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 8.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 8.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.174,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.774,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 9.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 9.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.277,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 10.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 10.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.174,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 11.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 11.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.275,
+        "line": "adc=1 normalized=0.000"
+      },
+      {
+        "seconds": 12.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 12.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 12.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.174,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.374,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 13.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 13.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 14.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 14.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.274,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.774,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 15.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 15.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.577,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 16.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 16.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 17.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 17.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 18.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 18.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 19.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 19.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 20.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 20.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.078,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 21.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 21.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 22.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 22.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 23.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 23.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.276,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 24.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 24.975,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.176,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 25.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 25.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 26.775,
+        "line": "adc=489 normalized=0.163"
+      },
+      {
+        "seconds": 26.875,
+        "line": "adc=561 normalized=0.187"
+      },
+      {
+        "seconds": 26.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 26.976,
+        "line": "adc=24 normalized=0.008"
+      },
+      {
+        "seconds": 27.075,
+        "line": "adc=1085 normalized=0.362"
+      },
+      {
+        "seconds": 27.175,
+        "line": "adc=3294 normalized=1.000"
+      },
+      {
+        "seconds": 27.275,
+        "line": "adc=3842 normalized=1.000"
+      },
+      {
+        "seconds": 27.375,
+        "line": "adc=4046 normalized=1.000"
+      },
+      {
+        "seconds": 27.475,
+        "line": "adc=4093 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 27.575,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 27.675,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 27.775,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 27.875,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 27.978,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 27.978,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.075,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.175,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.275,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.375,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.475,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.575,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.675,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.775,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.875,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 28.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 28.976,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 29.075,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 29.175,
+        "line": "adc=3079 normalized=1.000"
+      },
+      {
+        "seconds": 29.275,
+        "line": "adc=353 normalized=0.118"
+      },
+      {
+        "seconds": 29.375,
+        "line": "adc=14 normalized=0.005"
+      },
+      {
+        "seconds": 29.475,
+        "line": "adc=1 normalized=0.000"
+      },
+      {
+        "seconds": 29.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 29.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 29.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 29.876,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 29.977,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 29.978,
+        "line": "adc=691 normalized=0.230"
+      },
+      {
+        "seconds": 30.075,
+        "line": "adc=2600 normalized=0.867"
+      },
+      {
+        "seconds": 30.175,
+        "line": "adc=3403 normalized=1.000"
+      },
+      {
+        "seconds": 30.275,
+        "line": "adc=3917 normalized=1.000"
+      },
+      {
+        "seconds": 30.375,
+        "line": "adc=4084 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 30.475,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 30.575,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 30.675,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 30.775,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 30.875,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 30.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 30.977,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.075,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.175,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.275,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.375,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.475,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.575,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.675,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 31.775,
+        "line": "adc=3652 normalized=1.000"
+      },
+      {
+        "seconds": 31.875,
+        "line": "adc=2802 normalized=0.934"
+      },
+      {
+        "seconds": 31.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 31.976,
+        "line": "adc=677 normalized=0.226"
+      },
+      {
+        "seconds": 32.075,
+        "line": "adc=26 normalized=0.009"
+      },
+      {
+        "seconds": 32.175,
+        "line": "adc=1 normalized=0.000"
+      },
+      {
+        "seconds": 32.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 32.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 32.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 32.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 32.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 32.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 32.875,
+        "line": "adc=72 normalized=0.024"
+      },
+      {
+        "seconds": 32.975,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 32.976,
+        "line": "adc=616 normalized=0.205"
+      },
+      {
+        "seconds": 33.075,
+        "line": "adc=2111 normalized=0.704"
+      },
+      {
+        "seconds": 33.175,
+        "line": "adc=3424 normalized=1.000"
+      },
+      {
+        "seconds": 33.275,
+        "line": "adc=3880 normalized=1.000"
+      },
+      {
+        "seconds": 33.375,
+        "line": "adc=4004 normalized=1.000"
+      },
+      {
+        "seconds": 33.475,
+        "line": "adc=4069 normalized=1.000"
+      },
+      {
+        "seconds": 33.575,
+        "line": "adc=4093 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 33.678,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 33.776,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 33.876,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 33.977,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 33.978,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 34.077,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 34.175,
+        "line": "adc=4095 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 34.275,
+        "line": "adc=4094 normalized=1.000 ADC SATURATED"
+      },
+      {
+        "seconds": 34.375,
+        "line": "adc=3967 normalized=1.000"
+      },
+      {
+        "seconds": 34.475,
+        "line": "adc=3801 normalized=1.000"
+      },
+      {
+        "seconds": 34.575,
+        "line": "adc=3339 normalized=1.000"
+      },
+      {
+        "seconds": 34.675,
+        "line": "adc=2771 normalized=0.924"
+      },
+      {
+        "seconds": 34.775,
+        "line": "adc=3071 normalized=1.000"
+      },
+      {
+        "seconds": 34.875,
+        "line": "adc=2404 normalized=0.801"
+      },
+      {
+        "seconds": 34.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 34.977,
+        "line": "adc=476 normalized=0.159"
+      },
+      {
+        "seconds": 35.075,
+        "line": "adc=19 normalized=0.006"
+      },
+      {
+        "seconds": 35.175,
+        "line": "adc=1 normalized=0.000"
+      },
+      {
+        "seconds": 35.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.922,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 35.986,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 35.986,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.376,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 36.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 36.976,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.176,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 37.977,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 37.978,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.175,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.275,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.375,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.475,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.575,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.675,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.775,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.875,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 38.976,
+        "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+      },
+      {
+        "seconds": 38.977,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 39.075,
+        "line": "adc=0 normalized=0.000"
+      },
+      {
+        "seconds": 39.175,
+        "line": "adc=0 normalized=0.000"
+      }
+    ]
+  }
+}

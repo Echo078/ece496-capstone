@@ -1,0 +1,3886 @@
+{
+  "date": "2026-10-25",
+  "environment": "hardware_check",
+  "reported_wiring": "3.3V -> added 10kohm -> FSR -> GPIO5 node -> existing 10kohm -> GND",
+  "findings": [
+    "Initial released measurement ADC=0 and DRV2605L device_id=7.",
+    "Pressure test still reached ADC=4095 (clipping).",
+    "DRV2605L STATUS reads failed throughout pressure capture and subsequent recheck.",
+    "Do not calibrate from this capture; inspect actual FSR divider and independent driver power/GND/SDA/SCL wiring."
+  ],
+  "motor_disconnected_by_user": true,
+  "motor_drive_enabled": false,
+  "captures": {
+    "released": {
+      "port": "/dev/cu.usbmodem348518B5D36C1",
+      "samples": [
+        {
+          "seconds": 0.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.276,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.376,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.476,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.876,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.976,
+          "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+        },
+        {
+          "seconds": 0.977,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.076,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.386,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.576,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.788,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.979,
+          "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+        },
+        {
+          "seconds": 1.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.276,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.39,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.575,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.976,
+          "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+        },
+        {
+          "seconds": 2.976,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.076,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.581,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.976,
+          "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+        },
+        {
+          "seconds": 3.976,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.376,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.591,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.977,
+          "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+        },
+        {
+          "seconds": 4.977,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.076,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.476,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.575,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.776,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.876,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.977,
+          "line": "I2C 0x5A ACK status=0xE0 device_id=7 DRV2605L; motor=DISABLED"
+        },
+        {
+          "seconds": 5.977,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.076,
+          "line": "adc=0 normalized=0.000"
+        }
+      ]
+    },
+    "pressure": {
+      "port": "/dev/cu.usbmodem348518B5D36C1",
+      "samples": [
+        {
+          "seconds": 0.976,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 0.977,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 0.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 1.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.079,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.279,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.877,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 2.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.277,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 3.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.277,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.377,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 4.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 5.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 6.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 6.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 7.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 7.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.877,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 8.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 8.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.377,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 9.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 9.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 10.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 10.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.377,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 11.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 11.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.079,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.277,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.377,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 12.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 12.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 13.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 13.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 14.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 14.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 15.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 15.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 16.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 16.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 17.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 17.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.877,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 18.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 18.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 19.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 19.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.277,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.877,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 20.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 20.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.277,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.479,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.879,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 21.98,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 21.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 22.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 22.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 23.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 23.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.279,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 24.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 24.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 25.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 25.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.879,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 26.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 26.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 27.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 27.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 28.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 28.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 29.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 29.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.377,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 30.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 30.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.379,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 31.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 31.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 32.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 32.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 33.98,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 33.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.181,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.38,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 34.986,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 34.987,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.383,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 35.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 35.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.177,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 36.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 36.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 37.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 37.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.077,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 38.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 38.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 39.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 39.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 40.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 40.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 41.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 41.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 42.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 42.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 43.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 43.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 44.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 44.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.587,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 45.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 45.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.777,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 46.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 46.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 47.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 47.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.577,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.677,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 48.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 48.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 49.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 49.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 50.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 50.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 51.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 51.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 52.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 52.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.679,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 53.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 53.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 54.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 54.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 55.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 55.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.377,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.477,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 56.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 56.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 57.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 57.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.079,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.681,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 58.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 58.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 59.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 59.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.278,
+          "line": "adc=2 normalized=0.001"
+        },
+        {
+          "seconds": 60.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 60.98,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 60.981,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 61.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 61.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 62.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 62.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 63.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 63.979,
+          "line": "adc=644 normalized=0.215"
+        },
+        {
+          "seconds": 64.078,
+          "line": "adc=986 normalized=0.329"
+        },
+        {
+          "seconds": 64.178,
+          "line": "adc=847 normalized=0.282"
+        },
+        {
+          "seconds": 64.278,
+          "line": "adc=622 normalized=0.207"
+        },
+        {
+          "seconds": 64.378,
+          "line": "adc=346 normalized=0.115"
+        },
+        {
+          "seconds": 64.478,
+          "line": "adc=39 normalized=0.013"
+        },
+        {
+          "seconds": 64.578,
+          "line": "adc=82 normalized=0.027"
+        },
+        {
+          "seconds": 64.678,
+          "line": "adc=870 normalized=0.290"
+        },
+        {
+          "seconds": 64.778,
+          "line": "adc=1449 normalized=0.483"
+        },
+        {
+          "seconds": 64.878,
+          "line": "adc=1399 normalized=0.466"
+        },
+        {
+          "seconds": 64.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 64.979,
+          "line": "adc=1439 normalized=0.480"
+        },
+        {
+          "seconds": 65.078,
+          "line": "adc=1651 normalized=0.550"
+        },
+        {
+          "seconds": 65.178,
+          "line": "adc=2069 normalized=0.690"
+        },
+        {
+          "seconds": 65.278,
+          "line": "adc=2448 normalized=0.816"
+        },
+        {
+          "seconds": 65.378,
+          "line": "adc=2762 normalized=0.921"
+        },
+        {
+          "seconds": 65.478,
+          "line": "adc=2878 normalized=0.959"
+        },
+        {
+          "seconds": 65.578,
+          "line": "adc=2885 normalized=0.962"
+        },
+        {
+          "seconds": 65.678,
+          "line": "adc=2939 normalized=0.980"
+        },
+        {
+          "seconds": 65.778,
+          "line": "adc=2949 normalized=0.983"
+        },
+        {
+          "seconds": 65.878,
+          "line": "adc=2937 normalized=0.979"
+        },
+        {
+          "seconds": 65.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 65.979,
+          "line": "adc=2950 normalized=0.983"
+        },
+        {
+          "seconds": 66.078,
+          "line": "adc=2975 normalized=0.992"
+        },
+        {
+          "seconds": 66.178,
+          "line": "adc=2964 normalized=0.988"
+        },
+        {
+          "seconds": 66.278,
+          "line": "adc=2993 normalized=0.998"
+        },
+        {
+          "seconds": 66.378,
+          "line": "adc=3037 normalized=1.000"
+        },
+        {
+          "seconds": 66.478,
+          "line": "adc=3156 normalized=1.000"
+        },
+        {
+          "seconds": 66.578,
+          "line": "adc=3280 normalized=1.000"
+        },
+        {
+          "seconds": 66.678,
+          "line": "adc=3337 normalized=1.000"
+        },
+        {
+          "seconds": 66.778,
+          "line": "adc=3374 normalized=1.000"
+        },
+        {
+          "seconds": 66.878,
+          "line": "adc=3430 normalized=1.000"
+        },
+        {
+          "seconds": 66.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 66.979,
+          "line": "adc=3454 normalized=1.000"
+        },
+        {
+          "seconds": 67.094,
+          "line": "adc=3498 normalized=1.000"
+        },
+        {
+          "seconds": 67.178,
+          "line": "adc=3554 normalized=1.000"
+        },
+        {
+          "seconds": 67.278,
+          "line": "adc=3649 normalized=1.000"
+        },
+        {
+          "seconds": 67.378,
+          "line": "adc=3754 normalized=1.000"
+        },
+        {
+          "seconds": 67.478,
+          "line": "adc=3815 normalized=1.000"
+        },
+        {
+          "seconds": 67.578,
+          "line": "adc=3857 normalized=1.000"
+        },
+        {
+          "seconds": 67.678,
+          "line": "adc=3885 normalized=1.000"
+        },
+        {
+          "seconds": 67.778,
+          "line": "adc=3919 normalized=1.000"
+        },
+        {
+          "seconds": 67.878,
+          "line": "adc=3951 normalized=1.000"
+        },
+        {
+          "seconds": 67.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 67.98,
+          "line": "adc=4003 normalized=1.000"
+        },
+        {
+          "seconds": 68.078,
+          "line": "adc=4047 normalized=1.000"
+        },
+        {
+          "seconds": 68.178,
+          "line": "adc=4070 normalized=1.000"
+        },
+        {
+          "seconds": 68.278,
+          "line": "adc=4081 normalized=1.000 ADC SATURATED"
+        },
+        {
+          "seconds": 68.378,
+          "line": "adc=4090 normalized=1.000 ADC SATURATED"
+        },
+        {
+          "seconds": 68.478,
+          "line": "adc=4095 normalized=1.000 ADC SATURATED"
+        },
+        {
+          "seconds": 68.578,
+          "line": "adc=4095 normalized=1.000 ADC SATURATED"
+        },
+        {
+          "seconds": 68.678,
+          "line": "adc=4095 normalized=1.000 ADC SATURATED"
+        },
+        {
+          "seconds": 68.778,
+          "line": "adc=4095 normalized=1.000 ADC SATURATED"
+        },
+        {
+          "seconds": 68.878,
+          "line": "adc=3690 normalized=1.000"
+        },
+        {
+          "seconds": 68.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 68.98,
+          "line": "adc=2693 normalized=0.898"
+        },
+        {
+          "seconds": 69.078,
+          "line": "adc=1664 normalized=0.555"
+        },
+        {
+          "seconds": 69.178,
+          "line": "adc=423 normalized=0.141"
+        },
+        {
+          "seconds": 69.278,
+          "line": "adc=16 normalized=0.005"
+        },
+        {
+          "seconds": 69.379,
+          "line": "adc=1 normalized=0.000"
+        },
+        {
+          "seconds": 69.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 69.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 69.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 69.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 69.879,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 69.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 69.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 70.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 70.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 71.878,
+          "line": "adc=1 normalized=0.000"
+        },
+        {
+          "seconds": 71.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 71.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 72.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 72.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.479,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.678,
+          "line": "adc=2 normalized=0.001"
+        },
+        {
+          "seconds": 73.778,
+          "line": "adc=1 normalized=0.000"
+        },
+        {
+          "seconds": 73.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 73.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 73.979,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 74.979,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 74.98,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.478,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 75.978,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 75.978,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.078,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.178,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.278,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.378,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.479,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.578,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.678,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.778,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.878,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 76.981,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 76.981,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 77.078,
+          "line": "adc=0 normalized=0.000"
+        }
+      ]
+    },
+    "driver_recheck": {
+      "port": "/dev/cu.usbmodem348518B5D36C1",
+      "samples": [
+        {
+          "seconds": 0.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.575,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 0.976,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 0.977,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.575,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 1.975,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 1.975,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.575,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 2.975,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 2.975,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.075,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.579,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 3.975,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 3.976,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.083,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.175,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.275,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.375,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.475,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.575,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.675,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.775,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.875,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 4.975,
+          "line": "0x5A STATUS read FAILED; check power/GND/SDA=9/SCL=8/EN/pullups"
+        },
+        {
+          "seconds": 4.976,
+          "line": "adc=0 normalized=0.000"
+        },
+        {
+          "seconds": 5.075,
+          "line": "adc=0 normalized=0.000"
+        }
+      ]
+    }
+  }
+}

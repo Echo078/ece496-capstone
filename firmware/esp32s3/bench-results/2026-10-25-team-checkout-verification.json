@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25",
+  "branch": "echo/fsr-erm-demo",
+  "base_branch": "jw_dev",
+  "base_commit": "b8e302834f7c7c7bdb821cd38d3ee183acbf26ef",
+  "juce_version": "9.0.4",
+  "juce_submodule_commit": "3fb5cbc0340758596dac39f7c8de47d562b4896e",
+  "juce_submodule_pin_changed": false,
+  "host_build": "Clean macOS Debug; Unix Makefiles",
+  "host_formats_built": ["Standalone", "VST3", "AU"],
+  "ctest": {"total": 9, "passed": 9, "failed": 0},
+  "ui_offscreen_render_passed": true,
+  "firmware_environment_built": "mixsense_gr_erm",
+  "firmware_host_tests": "Passed with AddressSanitizer and UndefinedBehaviorSanitizer",
+  "hardware_reflashed": false,
+  "physical_test": "Not repeated from this checkout; see the separate JUCE 8.0.12 standalone hardware integration record.",
+  "original_demo_workspace_preserved": true
+}

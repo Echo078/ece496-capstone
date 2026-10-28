@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-25",
+  "host_application": "/Users/echochen/Downloads/mixsense-jw_dev/build/MixSense_artefacts/Debug/Standalone/MixSense.app",
+  "juce_version": "8.0.12",
+  "juce_commit": "29396c22c93392d6738e021b83196283d6e4d850",
+  "build": "Debug; Unix Makefiles; Apple command-line toolchain",
+  "host_source_modified_for_launch": false,
+  "automated_tests": {
+    "ctest_cases": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "firmware_environment": "mixsense_usb",
+  "firmware_sha256": "c8da14169218fac9974244e930fc17dc4443642bfa85647f7bf1a4f8a7be5dbb",
+  "firmware_upload_hash_verified": true,
+  "port": "/dev/cu.usbmodem348518B5D36C1",
+  "live_checks": [
+    {
+      "check": "Application window visible",
+      "evidence": "User confirmed after launch via macOS Launch Services."
+    },
+    {
+      "check": "Serial port opened by MixSense",
+      "evidence": "lsof showed MixSense PID 83598 holding the USB callout device."
+    },
+    {
+      "check": "CDC connected and FSR changes threshold slider",
+      "evidence": "User explicitly confirmed both in the live UI."
+    }
+  ],
+  "motor_output_enabled": false,
+  "audio_processing": "passthrough",
+  "calibration": "Existing placeholder 0..3000 ADC mapping retained; this test verifies integration, not force calibration.",
+  "physical_drv2605l_test": "Not required for this FSR-only middleware test; prior driver communication issue remains unresolved."
+}
